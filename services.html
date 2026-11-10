@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maple Counselling Services</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/services.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
@@ -13,18 +14,22 @@
     <nav>
         <div id="top-nav">
             <a id="home-link" href="/"><img id="nav-logo" src="images/maple-logo.jpg" alt="maple-logo"></a>
-            <div id="nav-links-normal">
-                <a class="nav-link main-font" href="./">Home</a>
-                <a class="nav-link main-font" href="./services.html">Services</a>
-                <a class="nav-link main-font" href="./resources.html">Resources</a>
-                <a class="nav-link main-font" href="./contact.html">Contact</a>
+            <h2 id="nav-heading" class="main-font">Maple Counselling Services</h2>
+            <div id="nav-link-holder">
+                <div id="nav-links-normal">
+                    <a class="nav-link main-font" href="./">Home</a>
+                    <a class="nav-link main-font selected-nav-link" href="./services.html">Services</a>
+                    <a class="nav-link main-font" href="./resources.html">Resources</a>
+                    <a class="nav-link main-font" href="./contact.html">Contact</a>
+                </div>
+                <a href="https://www.facebook.com/p/Maple-Counselling-Services-61585425916948/" id="facebook-link">ⓕ</a>
+                <span id="burger-button">☰</span>
             </div>
-            <span id="burger-button">☰</span>
         </div>
         <div id="bottom-nav">
             <ul id="nav-links-mobile">
                 <li class="nav-link-holder"><a class="nav-link main-font" href="./">Home</a></li>
-                <li class="nav-link-holder"><a class="nav-link main-font" href="./services.html">Services</a></li>
+                <li class="nav-link-holder"><a class="nav-link main-font selected-nav-link" href="./services.html">Services</a></li>
                 <li class="nav-link-holder"><a class="nav-link main-font" href="./resources.html">Resources</a></li>
                 <li class="nav-link-holder"><a class="nav-link main-font" href="./contact.html">Contact</a></li>
             </ul>
@@ -77,11 +82,13 @@
         </section>
         <section id="pricing-section">
             <h2 class="main-font" id="pricing-heading">Pricing</h2>
-            <div class="pricing-display" id="pricing-display-1">
-                <h3 class="main-font price-display-heading">Service + Fee</h3>
-            </div>
-            <div class="pricing-display" id="pricing-display-2">
-                <h3 class="main-font price-display-heading">Rescheduling and Cancellations</h3>
+            <div id="pricing-display-div">
+                <div class="pricing-display" id="pricing-display-1">
+                    <h3 class="main-font price-display-heading">Service + Fee</h3>
+                </div>
+                <div class="pricing-display" id="pricing-display-2">
+                    <h3 class="main-font price-display-heading">Rescheduling and Cancellations</h3>
+                </div>
             </div>
         </section>
         <section id="contact-section">

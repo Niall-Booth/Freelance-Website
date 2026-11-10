@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maple Counselling Services</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div id="top-nav">
+            <a id="home-link" href="/"><img id="nav-logo" src="images/maple-logo.jpg" alt="maple-logo"></a>
+            <h2 id="nav-heading" class="main-font">Maple Counselling Services</h2>
+            <div id="nav-link-holder">
+                <div id="nav-links-normal">
+                    <a class="nav-link main-font" href="./">Home</a>
+                    <a class="nav-link main-font" href="./services.html">Services</a>
+                    <a class="nav-link main-font" href="./resources.html">Resources</a>
+                    <a class="nav-link main-font selected-nav-link" href="./contact.html">Contact</a>
+                </div>
+                <a href="https://www.facebook.com/p/Maple-Counselling-Services-61585425916948/" id="facebook-link">ⓕ</a>
+                <span id="burger-button">☰</span>
+            </div>
+        </div>
+        <div id="bottom-nav">
+            <ul id="nav-links-mobile">
+                <li class="nav-link-holder"><a class="nav-link main-font" href="./">Home</a></li>
+                <li class="nav-link-holder"><a class="nav-link main-font" href="./services.html">Services</a></li>
+                <li class="nav-link-holder"><a class="nav-link main-font" href="./resources.html">Resources</a></li>
+                <li class="nav-link-holder"><a class="nav-link main-font selected-nav-link" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main id="contact-main">
+        <div id="contact-heading-div">
+            <h1 id="contact-heading">Get in touch</h1>
+            <p id="contact-sub">Taking the first step can feel difficult, but you don't have to have everything figured out. I'd love to hear from you.</p>
+        </div>
+        <section id="contact-section">
+            <div id="form-container">
+                <h2>Send a Message</h2>
+                <form id="contact-form">
+                    <label for="name-input">Name</label>
+                    <input type="text" placeholder="Your name" required>
+                    <label for="email-input">Email Address</label>
+                    <input type="email" placeholder="Your email address">
+                    <label for="subject-input">Subject</label>
+                    <input type="text" placeholder="Select an enquiry type">
+                    <label for="message-input">Message</label>
+                    <textarea name="" id="" placeholder="How can I help?" cols="10" rows="7"></textarea>
+                    <button id="submit" type="button">Send Message</button>
+                </form>
+            </div>
+            <div id="contact-details">
+                <h2>Other ways to get in touch</h2>
+                <div class="contact-details-holder">
+                    <span class="contact-logo">&#9743</span>
+                    <div class="contact-detail">
+                        <h3>Telephone</h3>
+                        <p>07882646251</p>
+                    </div>
+                </div>
+                <hr class="white-hr">
+                <div class="contact-details-holder">
+                    <span class="contact-logo">&#x25F7</span>
+                    <div class="contact-detail">
+                        <h3>Free Consultation</h3>
+                        <p>15-minute telephone consultation with no obligation</p>
+                    </div>
+                </div>
+                <hr class="white-hr">
+                <div class="contact-details-holder">
+                    <span class="contact-logo">&#9825</span>
+                    <div class="contact-detail">
+                        <h3>A Welcoming Space</h3>
+                        <p>No pressure, no judgement. Just an opportunity to talk.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img id="footer-img-1" src="images/bacp-logo.png" alt="">
+        <div id="footer-centre-text">
+            <p id="footer-date" class="main-font"></p>
+            <p class="main-font">Website design & development by Niall Booth</p>
+        </div>
+        <img id="footer-img-2" src="images/councelling-badge.png" alt="">
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
