@@ -28,7 +28,7 @@ $(window).on("scroll", function () {
         });
     }
     
-    else if(yCoords > 1000 && !contactAnimated){
+    else if(yCoords > 920 && !contactAnimated){
         contactAnimated = true;
         animate("#contact-button", {
             opacity: [0, 1],
