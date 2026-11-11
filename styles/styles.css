@@ -102,6 +102,10 @@ main{
   width: 25%;
 }
 
+.nav-link:hover{
+    text-shadow: 4px 6px 8px #000000;
+}
+
 #nav-link-selected{
     display: flex;
     flex-direction: row;
@@ -176,16 +180,30 @@ footer{
     width: 33%;
     height: 100%;
     margin: auto;
-    margin-right: 290px;
+    margin-right: 145px;
     justify-content: center;
 }
 
 #footer-img-1{
     height: auto;
     width: 10%;
+    margin-right: 5%;
 }
 
 #footer-img-2{
     height: auto;
     width: 7%;
+}
+
+#privacy-link{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+#privacy-link:hover{
+    background-color: #39B1D1;
+    color: white;
 }
