@@ -4,7 +4,7 @@ $("#submit").on("click", function(){
     const subject = $("#subject").val();
     const message = $("#message").val();
 
-    const recipient = "niall.booth02@outlook.com";
+    const recipient = "maplecounselling@outlook.com";
 
     window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
         "Dear Lindsey,\n\n" +
