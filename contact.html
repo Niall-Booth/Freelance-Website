@@ -44,14 +44,14 @@
             <div id="form-container">
                 <h2>Send a Message</h2>
                 <form id="contact-form">
-                    <label for="name-input">Name</label>
-                    <input type="text" placeholder="Your name" required>
-                    <label for="email-input">Email Address</label>
-                    <input type="email" placeholder="Your email address">
-                    <label for="subject-input">Subject</label>
-                    <input type="text" placeholder="Select an enquiry type">
-                    <label for="message-input">Message</label>
-                    <textarea name="" id="" placeholder="How can I help?" cols="10" rows="7"></textarea>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Your name" id="name">
+                    <label for="email">Email Address</label>
+                    <input type="email" placeholder="Your email address" id="email">
+                    <label for="subject">Subject</label>
+                    <input type="text" placeholder="Please provide an enquiry type" id="subject">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="How can I help?" cols="10" rows="7"></textarea>
                     <button id="submit" type="button">Send Message</button>
                 </form>
             </div>
@@ -94,5 +94,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/main.js" type="module"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
